@@ -1,5 +1,5 @@
 import net = require('net');//import socket module
-import ip = require('ip');
+let ip = require('ip');
 
 // define address interface
 interface Address { port: number; family: string; address: string; };

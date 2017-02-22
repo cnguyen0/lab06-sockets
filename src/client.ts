@@ -1,5 +1,5 @@
 'use strict';
-import ip = require('ip');
+let ip = require('ip');
 
 //make the client
 const net = require('net'),
